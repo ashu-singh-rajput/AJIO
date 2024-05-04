@@ -1,0 +1,71 @@
+*{padding: 0;
+margin: 0;
+}
+.Navbar{
+    background-color: bisque;
+    width: 100%;
+    height: 90px;
+}
+.logo{
+    display: flex;
+    height: 38px;
+    width: 130px;
+    padding: 30px 0px 0px 150px;
+  
+}
+.Menu_navlist{
+    display: flex;
+    list-style: none;
+    
+    justify-content: center;
+}
+
+.Menu_navlist li{
+    height: 40px;
+}
+.Menu_navlist li a{
+    display: flex;
+    align-items: flex-end;
+    color:rgb(51, 51, 51);
+    text-decoration: none;
+    padding-left: 20px;
+}
+.Home_Kitchen{
+    padding-right: 40px;
+}
+.Menu_navlist li input{
+
+    display: flex;
+    width: 250px;
+    margin-left: 10px;
+    margin: -20px;
+    box-sizing: border-box;
+}
+#Search{
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 25px;
+    
+
+}
+.heart_logo{
+    height: 34px;
+    width: 34px;
+    margin-top: -16px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.Shoping_bag{
+    display: flex;
+  margin:-19px 0px 0px 15px;
+  
+}
+/* .Sign{
+    display: flex;
+}
+.Sign_in{
+    display: flex;
+}
+.Join_Ajio{
+    display: flex;  
+} */
